@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Polls Application Site(classVIew){% endblock %}</title>
+</head>
+<body>
+{% block sidebar %}
+    {{ block.super }}
+    <ul>
+        <li><a href ="/polls/">Polls_Home</a></li>
+    </ul>
+
+{% endblock %}
+
+{% block content %}
+{% endblock %}
+</body>
+</html>
